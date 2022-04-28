@@ -8,6 +8,8 @@
 *.exe
 .deps
 .libs
+!build/FLAC.xcodeproj
+!build/config.h
 Makefile
 Makefile.in
 aclocal.m4

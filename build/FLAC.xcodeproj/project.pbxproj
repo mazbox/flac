@@ -1,0 +1,1563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09596149DB854383BAC110BE /* stream_encoder_framing.c in Sources */ = {isa = PBXBuildFile; fileRef = 35A56262457D4D4AB1D02739 /* stream_encoder_framing.c */; };
+		13601B40AFB84AFF95E60C95 /* ogg_decoder_aspect.c in Sources */ = {isa = PBXBuildFile; fileRef = 29FBDB29C279404E806E5B1C /* ogg_decoder_aspect.c */; };
+		1653166214E14FF48D580C2F /* stream_decoder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 11FBECBE4BA147049EC348D3 /* stream_decoder.cpp */; };
+		17B5F87544654FE9B5E39205 /* ogg_encoder_aspect.c in Sources */ = {isa = PBXBuildFile; fileRef = 66EE464FE20F412EA3A07159 /* ogg_encoder_aspect.c */; };
+		214CD82E8104496BA9A913A2 /* stream_decoder.c in Sources */ = {isa = PBXBuildFile; fileRef = 5A966F193F624F5B918E3562 /* stream_decoder.c */; };
+		30413BADDB4A4C20B58EEC66 /* metadata_object.c in Sources */ = {isa = PBXBuildFile; fileRef = 3430CD87605544A98EC7B04E /* metadata_object.c */; };
+		308835D7401E439992459271 /* format.c in Sources */ = {isa = PBXBuildFile; fileRef = 172F31CED9C0482E80BD6100 /* format.c */; };
+		3B0EC7959035424E9B18464E /* fixed.c in Sources */ = {isa = PBXBuildFile; fileRef = 72BC23595C7F47F289BD2CFB /* fixed.c */; };
+		3E717D01FF394FBFAEFE5765 /* stream_encoder.c in Sources */ = {isa = PBXBuildFile; fileRef = 67FAE6172BD2440D91E95B48 /* stream_encoder.c */; };
+		4B6711DF7D844C40B713250A /* bitwriter.c in Sources */ = {isa = PBXBuildFile; fileRef = 825AB9BD0F23476987069F13 /* bitwriter.c */; };
+		4C8002084A754816A10BBC97 /* lpc_intrin_vsx.c in Sources */ = {isa = PBXBuildFile; fileRef = 9D63756258E34B4CB3F0F8F2 /* lpc_intrin_vsx.c */; };
+		5BA9EE067B4C437B8D9752BE /* fixed_intrin_sse2.c in Sources */ = {isa = PBXBuildFile; fileRef = 867EB8D0D80E4E89A0C35E12 /* fixed_intrin_sse2.c */; };
+		61029E70CE5F4A328B6363D9 /* window.c in Sources */ = {isa = PBXBuildFile; fileRef = B52D88405DE84A458C15C24F /* window.c */; };
+		64D35AD08B8842D0B699B7A6 /* metadata.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 833068475CE9481B957BF4EF /* metadata.cpp */; };
+		763FE07969B9482B8E74DA48 /* stream_encoder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B52057D207C2417DBB8D291D /* stream_encoder.cpp */; };
+		7A8D3F745AE0469B971F399B /* lpc_intrin_sse41.c in Sources */ = {isa = PBXBuildFile; fileRef = DD75F148E78A4229B9336DFF /* lpc_intrin_sse41.c */; };
+		7C3F7CF9EA174436A78E52B3 /* float.c in Sources */ = {isa = PBXBuildFile; fileRef = B62A4542781F4B958FAA4BC8 /* float.c */; };
+		9D8F282592FC43098C7DE1E8 /* stream_encoder_intrin_avx2.c in Sources */ = {isa = PBXBuildFile; fileRef = 16DB09375F964BFDBF7BE45E /* stream_encoder_intrin_avx2.c */; };
+		A0B44A65884547CE961A7D00 /* lpc_intrin_sse2.c in Sources */ = {isa = PBXBuildFile; fileRef = D749EB9629E04876B7008AEA /* lpc_intrin_sse2.c */; };
+		A51A14DB7CB340EBBA692822 /* ogg_mapping.c in Sources */ = {isa = PBXBuildFile; fileRef = 1906F22AEAFC48249227866B /* ogg_mapping.c */; };
+		A641D53257974D7AAAE897A7 /* bitreader.c in Sources */ = {isa = PBXBuildFile; fileRef = DE76FB2A062B4B2FAF008A20 /* bitreader.c */; };
+		BD66E8197B4544F1987955DB /* bitmath.c in Sources */ = {isa = PBXBuildFile; fileRef = AA4653DD4537474F8E68E287 /* bitmath.c */; };
+		CEA044815B914D22A5A6F060 /* md5.c in Sources */ = {isa = PBXBuildFile; fileRef = 8F69D48F14DF452DBFC36643 /* md5.c */; };
+		CF02C568B2C449418ECFF5F3 /* memory.c in Sources */ = {isa = PBXBuildFile; fileRef = 6AA62306A6CB4794834BDD90 /* memory.c */; };
+		D74EE3756FB344BD8D4AE7C6 /* crc.c in Sources */ = {isa = PBXBuildFile; fileRef = 73AD290D7F7F490F9E5527D4 /* crc.c */; };
+		DC17D2604A1643D68673CBA4 /* stream_encoder_intrin_sse2.c in Sources */ = {isa = PBXBuildFile; fileRef = C9283384BD504110A8EA9375 /* stream_encoder_intrin_sse2.c */; };
+		E6F25B0E0B8B46399247A89D /* fixed_intrin_ssse3.c in Sources */ = {isa = PBXBuildFile; fileRef = F629A59B271D4A3CABC6C9F7 /* fixed_intrin_ssse3.c */; };
+		EAD17716281ACECF00E2AAE6 /* bitmath.c in Sources */ = {isa = PBXBuildFile; fileRef = AA4653DD4537474F8E68E287 /* bitmath.c */; };
+		EAD17717281ACECF00E2AAE6 /* bitreader.c in Sources */ = {isa = PBXBuildFile; fileRef = DE76FB2A062B4B2FAF008A20 /* bitreader.c */; };
+		EAD17718281ACECF00E2AAE6 /* bitwriter.c in Sources */ = {isa = PBXBuildFile; fileRef = 825AB9BD0F23476987069F13 /* bitwriter.c */; };
+		EAD17719281ACECF00E2AAE6 /* cpu.c in Sources */ = {isa = PBXBuildFile; fileRef = DC0914D78B804A8DB13A1360 /* cpu.c */; };
+		EAD1771A281ACECF00E2AAE6 /* crc.c in Sources */ = {isa = PBXBuildFile; fileRef = 73AD290D7F7F490F9E5527D4 /* crc.c */; };
+		EAD1771B281ACECF00E2AAE6 /* fixed.c in Sources */ = {isa = PBXBuildFile; fileRef = 72BC23595C7F47F289BD2CFB /* fixed.c */; };
+		EAD1771C281ACECF00E2AAE6 /* fixed_intrin_sse2.c in Sources */ = {isa = PBXBuildFile; fileRef = 867EB8D0D80E4E89A0C35E12 /* fixed_intrin_sse2.c */; };
+		EAD1771D281ACECF00E2AAE6 /* fixed_intrin_ssse3.c in Sources */ = {isa = PBXBuildFile; fileRef = F629A59B271D4A3CABC6C9F7 /* fixed_intrin_ssse3.c */; };
+		EAD1771E281ACECF00E2AAE6 /* float.c in Sources */ = {isa = PBXBuildFile; fileRef = B62A4542781F4B958FAA4BC8 /* float.c */; };
+		EAD1771F281ACECF00E2AAE6 /* format.c in Sources */ = {isa = PBXBuildFile; fileRef = 172F31CED9C0482E80BD6100 /* format.c */; };
+		EAD17720281ACECF00E2AAE6 /* lpc.c in Sources */ = {isa = PBXBuildFile; fileRef = 100DEB526A60490199CF8EB5 /* lpc.c */; };
+		EAD17721281ACECF00E2AAE6 /* lpc_intrin_avx2.c in Sources */ = {isa = PBXBuildFile; fileRef = 34558721EDB743DB905B9D3B /* lpc_intrin_avx2.c */; };
+		EAD17722281ACECF00E2AAE6 /* lpc_intrin_sse.c in Sources */ = {isa = PBXBuildFile; fileRef = F02285C8B9594B469A1EFECB /* lpc_intrin_sse.c */; };
+		EAD17723281ACECF00E2AAE6 /* lpc_intrin_sse2.c in Sources */ = {isa = PBXBuildFile; fileRef = D749EB9629E04876B7008AEA /* lpc_intrin_sse2.c */; };
+		EAD17724281ACECF00E2AAE6 /* lpc_intrin_sse41.c in Sources */ = {isa = PBXBuildFile; fileRef = DD75F148E78A4229B9336DFF /* lpc_intrin_sse41.c */; };
+		EAD17725281ACECF00E2AAE6 /* lpc_intrin_vsx.c in Sources */ = {isa = PBXBuildFile; fileRef = 9D63756258E34B4CB3F0F8F2 /* lpc_intrin_vsx.c */; };
+		EAD17726281ACECF00E2AAE6 /* md5.c in Sources */ = {isa = PBXBuildFile; fileRef = 8F69D48F14DF452DBFC36643 /* md5.c */; };
+		EAD17727281ACECF00E2AAE6 /* memory.c in Sources */ = {isa = PBXBuildFile; fileRef = 6AA62306A6CB4794834BDD90 /* memory.c */; };
+		EAD17728281ACECF00E2AAE6 /* metadata_iterators.c in Sources */ = {isa = PBXBuildFile; fileRef = 802FB094B1AC4C6BAC50C8F4 /* metadata_iterators.c */; };
+		EAD17729281ACECF00E2AAE6 /* metadata_object.c in Sources */ = {isa = PBXBuildFile; fileRef = 3430CD87605544A98EC7B04E /* metadata_object.c */; };
+		EAD1772A281ACECF00E2AAE6 /* ogg_decoder_aspect.c in Sources */ = {isa = PBXBuildFile; fileRef = 29FBDB29C279404E806E5B1C /* ogg_decoder_aspect.c */; };
+		EAD1772B281ACECF00E2AAE6 /* ogg_encoder_aspect.c in Sources */ = {isa = PBXBuildFile; fileRef = 66EE464FE20F412EA3A07159 /* ogg_encoder_aspect.c */; };
+		EAD1772C281ACECF00E2AAE6 /* ogg_helper.c in Sources */ = {isa = PBXBuildFile; fileRef = 6B164C443AA04A4B92C8BFB7 /* ogg_helper.c */; };
+		EAD1772D281ACECF00E2AAE6 /* ogg_mapping.c in Sources */ = {isa = PBXBuildFile; fileRef = 1906F22AEAFC48249227866B /* ogg_mapping.c */; };
+		EAD1772E281ACECF00E2AAE6 /* stream_decoder.c in Sources */ = {isa = PBXBuildFile; fileRef = 5A966F193F624F5B918E3562 /* stream_decoder.c */; };
+		EAD1772F281ACECF00E2AAE6 /* stream_encoder.c in Sources */ = {isa = PBXBuildFile; fileRef = 67FAE6172BD2440D91E95B48 /* stream_encoder.c */; };
+		EAD17730281ACECF00E2AAE6 /* stream_encoder_framing.c in Sources */ = {isa = PBXBuildFile; fileRef = 35A56262457D4D4AB1D02739 /* stream_encoder_framing.c */; };
+		EAD17731281ACECF00E2AAE6 /* stream_encoder_intrin_avx2.c in Sources */ = {isa = PBXBuildFile; fileRef = 16DB09375F964BFDBF7BE45E /* stream_encoder_intrin_avx2.c */; };
+		EAD17732281ACECF00E2AAE6 /* stream_encoder_intrin_sse2.c in Sources */ = {isa = PBXBuildFile; fileRef = C9283384BD504110A8EA9375 /* stream_encoder_intrin_sse2.c */; };
+		EAD17733281ACECF00E2AAE6 /* stream_encoder_intrin_ssse3.c in Sources */ = {isa = PBXBuildFile; fileRef = 4D8162CD12D2443EBAA26A27 /* stream_encoder_intrin_ssse3.c */; };
+		EAD17734281ACECF00E2AAE6 /* window.c in Sources */ = {isa = PBXBuildFile; fileRef = B52D88405DE84A458C15C24F /* window.c */; };
+		EAD17740281ACEE300E2AAE6 /* metadata.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 833068475CE9481B957BF4EF /* metadata.cpp */; };
+		EAD17741281ACEE300E2AAE6 /* stream_decoder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 11FBECBE4BA147049EC348D3 /* stream_decoder.cpp */; };
+		EAD17742281ACEE300E2AAE6 /* stream_encoder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B52057D207C2417DBB8D291D /* stream_encoder.cpp */; };
+		EB992158AE0842C29D422B96 /* stream_encoder_intrin_ssse3.c in Sources */ = {isa = PBXBuildFile; fileRef = 4D8162CD12D2443EBAA26A27 /* stream_encoder_intrin_ssse3.c */; };
+		F5ACEB1CDF4843B9A88982B7 /* metadata_iterators.c in Sources */ = {isa = PBXBuildFile; fileRef = 802FB094B1AC4C6BAC50C8F4 /* metadata_iterators.c */; };
+		F7520615B38641A2AD2EAE9A /* lpc_intrin_avx2.c in Sources */ = {isa = PBXBuildFile; fileRef = 34558721EDB743DB905B9D3B /* lpc_intrin_avx2.c */; };
+		F8AE70B0FAD94A4BBB060ED4 /* lpc.c in Sources */ = {isa = PBXBuildFile; fileRef = 100DEB526A60490199CF8EB5 /* lpc.c */; };
+		F8BB1FBE8DE843158E0E32F1 /* lpc_intrin_sse.c in Sources */ = {isa = PBXBuildFile; fileRef = F02285C8B9594B469A1EFECB /* lpc_intrin_sse.c */; };
+		FA5F3C1D49CD4CC0BEBA7CC8 /* ogg_helper.c in Sources */ = {isa = PBXBuildFile; fileRef = 6B164C443AA04A4B92C8BFB7 /* ogg_helper.c */; };
+		FB7B5FB4D8EB46BEA3129472 /* cpu.c in Sources */ = {isa = PBXBuildFile; fileRef = DC0914D78B804A8DB13A1360 /* cpu.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EAD1773E281ACEE300E2AAE6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5BFF10DEDA20424290FA67F5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C240862B12294F5FB416DDC6;
+			remoteInfo = FLAC;
+		};
+		FC210BAA77B14967A30CE41E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5BFF10DEDA20424290FA67F5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C240862B12294F5FB416DDC6;
+			remoteInfo = FLAC;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02BB6404A9EF4CDD8964390B /* libFLAC++.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libFLAC++.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		100DEB526A60490199CF8EB5 /* lpc.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = lpc.c; path = src/libFLAC/lpc.c; sourceTree = SOURCE_ROOT; };
+		11FBECBE4BA147049EC348D3 /* stream_decoder.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = stream_decoder.cpp; path = "src/libFLAC++/stream_decoder.cpp"; sourceTree = SOURCE_ROOT; };
+		16DB09375F964BFDBF7BE45E /* stream_encoder_intrin_avx2.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = stream_encoder_intrin_avx2.c; path = src/libFLAC/stream_encoder_intrin_avx2.c; sourceTree = SOURCE_ROOT; };
+		172F31CED9C0482E80BD6100 /* format.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = format.c; path = src/libFLAC/format.c; sourceTree = SOURCE_ROOT; };
+		1906F22AEAFC48249227866B /* ogg_mapping.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ogg_mapping.c; path = src/libFLAC/ogg_mapping.c; sourceTree = SOURCE_ROOT; };
+		29FBDB29C279404E806E5B1C /* ogg_decoder_aspect.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ogg_decoder_aspect.c; path = src/libFLAC/ogg_decoder_aspect.c; sourceTree = SOURCE_ROOT; };
+		3430CD87605544A98EC7B04E /* metadata_object.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = metadata_object.c; path = src/libFLAC/metadata_object.c; sourceTree = SOURCE_ROOT; };
+		34558721EDB743DB905B9D3B /* lpc_intrin_avx2.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = lpc_intrin_avx2.c; path = src/libFLAC/lpc_intrin_avx2.c; sourceTree = SOURCE_ROOT; };
+		35A56262457D4D4AB1D02739 /* stream_encoder_framing.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = stream_encoder_framing.c; path = src/libFLAC/stream_encoder_framing.c; sourceTree = SOURCE_ROOT; };
+		4D8162CD12D2443EBAA26A27 /* stream_encoder_intrin_ssse3.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = stream_encoder_intrin_ssse3.c; path = src/libFLAC/stream_encoder_intrin_ssse3.c; sourceTree = SOURCE_ROOT; };
+		5A966F193F624F5B918E3562 /* stream_decoder.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = stream_decoder.c; path = src/libFLAC/stream_decoder.c; sourceTree = SOURCE_ROOT; };
+		66EE464FE20F412EA3A07159 /* ogg_encoder_aspect.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ogg_encoder_aspect.c; path = src/libFLAC/ogg_encoder_aspect.c; sourceTree = SOURCE_ROOT; };
+		67FAE6172BD2440D91E95B48 /* stream_encoder.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = stream_encoder.c; path = src/libFLAC/stream_encoder.c; sourceTree = SOURCE_ROOT; };
+		6AA62306A6CB4794834BDD90 /* memory.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = memory.c; path = src/libFLAC/memory.c; sourceTree = SOURCE_ROOT; };
+		6B164C443AA04A4B92C8BFB7 /* ogg_helper.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ogg_helper.c; path = src/libFLAC/ogg_helper.c; sourceTree = SOURCE_ROOT; };
+		72BC23595C7F47F289BD2CFB /* fixed.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fixed.c; path = src/libFLAC/fixed.c; sourceTree = SOURCE_ROOT; };
+		73AD290D7F7F490F9E5527D4 /* crc.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = crc.c; path = src/libFLAC/crc.c; sourceTree = SOURCE_ROOT; };
+		802FB094B1AC4C6BAC50C8F4 /* metadata_iterators.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = metadata_iterators.c; path = src/libFLAC/metadata_iterators.c; sourceTree = SOURCE_ROOT; };
+		818F80C43BD84771A8EDBC64 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; name = CMakeLists.txt; path = "src/libFLAC++/CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
+		825AB9BD0F23476987069F13 /* bitwriter.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = bitwriter.c; path = src/libFLAC/bitwriter.c; sourceTree = SOURCE_ROOT; };
+		833068475CE9481B957BF4EF /* metadata.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = metadata.cpp; path = "src/libFLAC++/metadata.cpp"; sourceTree = SOURCE_ROOT; };
+		867EB8D0D80E4E89A0C35E12 /* fixed_intrin_sse2.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fixed_intrin_sse2.c; path = src/libFLAC/fixed_intrin_sse2.c; sourceTree = SOURCE_ROOT; };
+		8F69D48F14DF452DBFC36643 /* md5.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = md5.c; path = src/libFLAC/md5.c; sourceTree = SOURCE_ROOT; };
+		9D63756258E34B4CB3F0F8F2 /* lpc_intrin_vsx.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = lpc_intrin_vsx.c; path = src/libFLAC/lpc_intrin_vsx.c; sourceTree = SOURCE_ROOT; };
+		9F8C16D0E40344F5B2209242 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; name = CMakeLists.txt; path = src/libFLAC/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		A0E7D426ED0044CDAE8A496B /* libFLAC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libFLAC.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA4653DD4537474F8E68E287 /* bitmath.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = bitmath.c; path = src/libFLAC/bitmath.c; sourceTree = SOURCE_ROOT; };
+		B52057D207C2417DBB8D291D /* stream_encoder.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = stream_encoder.cpp; path = "src/libFLAC++/stream_encoder.cpp"; sourceTree = SOURCE_ROOT; };
+		B52D88405DE84A458C15C24F /* window.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = window.c; path = src/libFLAC/window.c; sourceTree = SOURCE_ROOT; };
+		B62A4542781F4B958FAA4BC8 /* float.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = float.c; path = src/libFLAC/float.c; sourceTree = SOURCE_ROOT; };
+		C9283384BD504110A8EA9375 /* stream_encoder_intrin_sse2.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = stream_encoder_intrin_sse2.c; path = src/libFLAC/stream_encoder_intrin_sse2.c; sourceTree = SOURCE_ROOT; };
+		D749EB9629E04876B7008AEA /* lpc_intrin_sse2.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = lpc_intrin_sse2.c; path = src/libFLAC/lpc_intrin_sse2.c; sourceTree = SOURCE_ROOT; };
+		DC0914D78B804A8DB13A1360 /* cpu.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = cpu.c; path = src/libFLAC/cpu.c; sourceTree = SOURCE_ROOT; };
+		DD75F148E78A4229B9336DFF /* lpc_intrin_sse41.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = lpc_intrin_sse41.c; path = src/libFLAC/lpc_intrin_sse41.c; sourceTree = SOURCE_ROOT; };
+		DE76FB2A062B4B2FAF008A20 /* bitreader.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = bitreader.c; path = src/libFLAC/bitreader.c; sourceTree = SOURCE_ROOT; };
+		EAD1773B281ACECF00E2AAE6 /* libFLAC-iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libFLAC-iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAD17749281ACEE300E2AAE6 /* libFLAC++-iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libFLAC++-iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F02285C8B9594B469A1EFECB /* lpc_intrin_sse.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = lpc_intrin_sse.c; path = src/libFLAC/lpc_intrin_sse.c; sourceTree = SOURCE_ROOT; };
+		F629A59B271D4A3CABC6C9F7 /* fixed_intrin_ssse3.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fixed_intrin_ssse3.c; path = src/libFLAC/fixed_intrin_ssse3.c; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7CEAD9F8F97644A9B1830E6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBC4202639D147EFB8D5E88A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAD17735281ACECF00E2AAE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAD17743281ACEE300E2AAE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		181B2EEEEF1C4024BECDEF0F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A0E7D426ED0044CDAE8A496B /* libFLAC.a */,
+				02BB6404A9EF4CDD8964390B /* libFLAC++.a */,
+				EAD1773B281ACECF00E2AAE6 /* libFLAC-iOS.a */,
+				EAD17749281ACEE300E2AAE6 /* libFLAC++-iOS.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A74D1ECF24143CD9642A87D /* FLAC */ = {
+			isa = PBXGroup;
+			children = (
+				FD3C764156104076A4B1AD37 /* Source Files */,
+				9F8C16D0E40344F5B2209242 /* CMakeLists.txt */,
+			);
+			name = FLAC;
+			sourceTree = "<group>";
+		};
+		67FBA9B960134E79867D73DB /* FLAC++ */ = {
+			isa = PBXGroup;
+			children = (
+				6C9D632A90114E2DBFAD7394 /* Source Files */,
+				818F80C43BD84771A8EDBC64 /* CMakeLists.txt */,
+			);
+			name = "FLAC++";
+			sourceTree = "<group>";
+		};
+		6C9D632A90114E2DBFAD7394 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				833068475CE9481B957BF4EF /* metadata.cpp */,
+				11FBECBE4BA147049EC348D3 /* stream_decoder.cpp */,
+				B52057D207C2417DBB8D291D /* stream_encoder.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		B81F50DEA1BA45F78751CF50 = {
+			isa = PBXGroup;
+			children = (
+				2A74D1ECF24143CD9642A87D /* FLAC */,
+				67FBA9B960134E79867D73DB /* FLAC++ */,
+				181B2EEEEF1C4024BECDEF0F /* Products */,
+				CBF3E6CA9D7E4BD89C8AAD7B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CBF3E6CA9D7E4BD89C8AAD7B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FD3C764156104076A4B1AD37 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				AA4653DD4537474F8E68E287 /* bitmath.c */,
+				DE76FB2A062B4B2FAF008A20 /* bitreader.c */,
+				825AB9BD0F23476987069F13 /* bitwriter.c */,
+				DC0914D78B804A8DB13A1360 /* cpu.c */,
+				73AD290D7F7F490F9E5527D4 /* crc.c */,
+				72BC23595C7F47F289BD2CFB /* fixed.c */,
+				867EB8D0D80E4E89A0C35E12 /* fixed_intrin_sse2.c */,
+				F629A59B271D4A3CABC6C9F7 /* fixed_intrin_ssse3.c */,
+				B62A4542781F4B958FAA4BC8 /* float.c */,
+				172F31CED9C0482E80BD6100 /* format.c */,
+				100DEB526A60490199CF8EB5 /* lpc.c */,
+				34558721EDB743DB905B9D3B /* lpc_intrin_avx2.c */,
+				F02285C8B9594B469A1EFECB /* lpc_intrin_sse.c */,
+				D749EB9629E04876B7008AEA /* lpc_intrin_sse2.c */,
+				DD75F148E78A4229B9336DFF /* lpc_intrin_sse41.c */,
+				9D63756258E34B4CB3F0F8F2 /* lpc_intrin_vsx.c */,
+				8F69D48F14DF452DBFC36643 /* md5.c */,
+				6AA62306A6CB4794834BDD90 /* memory.c */,
+				802FB094B1AC4C6BAC50C8F4 /* metadata_iterators.c */,
+				3430CD87605544A98EC7B04E /* metadata_object.c */,
+				29FBDB29C279404E806E5B1C /* ogg_decoder_aspect.c */,
+				66EE464FE20F412EA3A07159 /* ogg_encoder_aspect.c */,
+				6B164C443AA04A4B92C8BFB7 /* ogg_helper.c */,
+				1906F22AEAFC48249227866B /* ogg_mapping.c */,
+				5A966F193F624F5B918E3562 /* stream_decoder.c */,
+				67FAE6172BD2440D91E95B48 /* stream_encoder.c */,
+				35A56262457D4D4AB1D02739 /* stream_encoder_framing.c */,
+				16DB09375F964BFDBF7BE45E /* stream_encoder_intrin_avx2.c */,
+				C9283384BD504110A8EA9375 /* stream_encoder_intrin_sse2.c */,
+				4D8162CD12D2443EBAA26A27 /* stream_encoder_intrin_ssse3.c */,
+				B52D88405DE84A458C15C24F /* window.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		15CEFDF9A7A94D76BEC931C7 /* FLAC++-macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8F8EF16DDC14E88BEBE119A /* Build configuration list for PBXNativeTarget "FLAC++-macOS" */;
+			buildPhases = (
+				C739867B998C479E8F88AE51 /* Sources */,
+				DBC4202639D147EFB8D5E88A /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				91342BBE62A14DBCA7E20A02 /* PBXTargetDependency */,
+			);
+			name = "FLAC++-macOS";
+			productName = "FLAC++";
+			productReference = 02BB6404A9EF4CDD8964390B /* libFLAC++.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		C240862B12294F5FB416DDC6 /* FLAC-macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 757D0B37474B4E21BD304907 /* Build configuration list for PBXNativeTarget "FLAC-macOS" */;
+			buildPhases = (
+				1FDFB9A65E4E4714971270A5 /* Sources */,
+				7CEAD9F8F97644A9B1830E6F /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FLAC-macOS";
+			productName = FLAC;
+			productReference = A0E7D426ED0044CDAE8A496B /* libFLAC.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		EAD17714281ACECF00E2AAE6 /* FLAC-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAD17736281ACECF00E2AAE6 /* Build configuration list for PBXNativeTarget "FLAC-iOS" */;
+			buildPhases = (
+				EAD17715281ACECF00E2AAE6 /* Sources */,
+				EAD17735281ACECF00E2AAE6 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FLAC-iOS";
+			productName = FLAC;
+			productReference = EAD1773B281ACECF00E2AAE6 /* libFLAC-iOS.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		EAD1773C281ACEE300E2AAE6 /* FLAC++-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAD17744281ACEE300E2AAE6 /* Build configuration list for PBXNativeTarget "FLAC++-iOS" */;
+			buildPhases = (
+				EAD1773F281ACEE300E2AAE6 /* Sources */,
+				EAD17743281ACEE300E2AAE6 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EAD1773D281ACEE300E2AAE6 /* PBXTargetDependency */,
+			);
+			name = "FLAC++-iOS";
+			productName = "FLAC++";
+			productReference = EAD17749281ACEE300E2AAE6 /* libFLAC++-iOS.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5BFF10DEDA20424290FA67F5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1330;
+			};
+			buildConfigurationList = 830E81B096414FB2B416561C /* Build configuration list for PBXProject "FLAC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B81F50DEA1BA45F78751CF50;
+			projectDirPath = ../;
+			projectRoot = "";
+			targets = (
+				C240862B12294F5FB416DDC6 /* FLAC-macOS */,
+				15CEFDF9A7A94D76BEC931C7 /* FLAC++-macOS */,
+				EAD17714281ACECF00E2AAE6 /* FLAC-iOS */,
+				EAD1773C281ACEE300E2AAE6 /* FLAC++-iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1FDFB9A65E4E4714971270A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD66E8197B4544F1987955DB /* bitmath.c in Sources */,
+				A641D53257974D7AAAE897A7 /* bitreader.c in Sources */,
+				4B6711DF7D844C40B713250A /* bitwriter.c in Sources */,
+				FB7B5FB4D8EB46BEA3129472 /* cpu.c in Sources */,
+				D74EE3756FB344BD8D4AE7C6 /* crc.c in Sources */,
+				3B0EC7959035424E9B18464E /* fixed.c in Sources */,
+				5BA9EE067B4C437B8D9752BE /* fixed_intrin_sse2.c in Sources */,
+				E6F25B0E0B8B46399247A89D /* fixed_intrin_ssse3.c in Sources */,
+				7C3F7CF9EA174436A78E52B3 /* float.c in Sources */,
+				308835D7401E439992459271 /* format.c in Sources */,
+				F8AE70B0FAD94A4BBB060ED4 /* lpc.c in Sources */,
+				F7520615B38641A2AD2EAE9A /* lpc_intrin_avx2.c in Sources */,
+				F8BB1FBE8DE843158E0E32F1 /* lpc_intrin_sse.c in Sources */,
+				A0B44A65884547CE961A7D00 /* lpc_intrin_sse2.c in Sources */,
+				7A8D3F745AE0469B971F399B /* lpc_intrin_sse41.c in Sources */,
+				4C8002084A754816A10BBC97 /* lpc_intrin_vsx.c in Sources */,
+				CEA044815B914D22A5A6F060 /* md5.c in Sources */,
+				CF02C568B2C449418ECFF5F3 /* memory.c in Sources */,
+				F5ACEB1CDF4843B9A88982B7 /* metadata_iterators.c in Sources */,
+				30413BADDB4A4C20B58EEC66 /* metadata_object.c in Sources */,
+				13601B40AFB84AFF95E60C95 /* ogg_decoder_aspect.c in Sources */,
+				17B5F87544654FE9B5E39205 /* ogg_encoder_aspect.c in Sources */,
+				FA5F3C1D49CD4CC0BEBA7CC8 /* ogg_helper.c in Sources */,
+				A51A14DB7CB340EBBA692822 /* ogg_mapping.c in Sources */,
+				214CD82E8104496BA9A913A2 /* stream_decoder.c in Sources */,
+				3E717D01FF394FBFAEFE5765 /* stream_encoder.c in Sources */,
+				09596149DB854383BAC110BE /* stream_encoder_framing.c in Sources */,
+				9D8F282592FC43098C7DE1E8 /* stream_encoder_intrin_avx2.c in Sources */,
+				DC17D2604A1643D68673CBA4 /* stream_encoder_intrin_sse2.c in Sources */,
+				EB992158AE0842C29D422B96 /* stream_encoder_intrin_ssse3.c in Sources */,
+				61029E70CE5F4A328B6363D9 /* window.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C739867B998C479E8F88AE51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64D35AD08B8842D0B699B7A6 /* metadata.cpp in Sources */,
+				1653166214E14FF48D580C2F /* stream_decoder.cpp in Sources */,
+				763FE07969B9482B8E74DA48 /* stream_encoder.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAD17715281ACECF00E2AAE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAD17716281ACECF00E2AAE6 /* bitmath.c in Sources */,
+				EAD17717281ACECF00E2AAE6 /* bitreader.c in Sources */,
+				EAD17718281ACECF00E2AAE6 /* bitwriter.c in Sources */,
+				EAD17719281ACECF00E2AAE6 /* cpu.c in Sources */,
+				EAD1771A281ACECF00E2AAE6 /* crc.c in Sources */,
+				EAD1771B281ACECF00E2AAE6 /* fixed.c in Sources */,
+				EAD1771C281ACECF00E2AAE6 /* fixed_intrin_sse2.c in Sources */,
+				EAD1771D281ACECF00E2AAE6 /* fixed_intrin_ssse3.c in Sources */,
+				EAD1771E281ACECF00E2AAE6 /* float.c in Sources */,
+				EAD1771F281ACECF00E2AAE6 /* format.c in Sources */,
+				EAD17720281ACECF00E2AAE6 /* lpc.c in Sources */,
+				EAD17721281ACECF00E2AAE6 /* lpc_intrin_avx2.c in Sources */,
+				EAD17722281ACECF00E2AAE6 /* lpc_intrin_sse.c in Sources */,
+				EAD17723281ACECF00E2AAE6 /* lpc_intrin_sse2.c in Sources */,
+				EAD17724281ACECF00E2AAE6 /* lpc_intrin_sse41.c in Sources */,
+				EAD17725281ACECF00E2AAE6 /* lpc_intrin_vsx.c in Sources */,
+				EAD17726281ACECF00E2AAE6 /* md5.c in Sources */,
+				EAD17727281ACECF00E2AAE6 /* memory.c in Sources */,
+				EAD17728281ACECF00E2AAE6 /* metadata_iterators.c in Sources */,
+				EAD17729281ACECF00E2AAE6 /* metadata_object.c in Sources */,
+				EAD1772A281ACECF00E2AAE6 /* ogg_decoder_aspect.c in Sources */,
+				EAD1772B281ACECF00E2AAE6 /* ogg_encoder_aspect.c in Sources */,
+				EAD1772C281ACECF00E2AAE6 /* ogg_helper.c in Sources */,
+				EAD1772D281ACECF00E2AAE6 /* ogg_mapping.c in Sources */,
+				EAD1772E281ACECF00E2AAE6 /* stream_decoder.c in Sources */,
+				EAD1772F281ACECF00E2AAE6 /* stream_encoder.c in Sources */,
+				EAD17730281ACECF00E2AAE6 /* stream_encoder_framing.c in Sources */,
+				EAD17731281ACECF00E2AAE6 /* stream_encoder_intrin_avx2.c in Sources */,
+				EAD17732281ACECF00E2AAE6 /* stream_encoder_intrin_sse2.c in Sources */,
+				EAD17733281ACECF00E2AAE6 /* stream_encoder_intrin_ssse3.c in Sources */,
+				EAD17734281ACECF00E2AAE6 /* window.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAD1773F281ACEE300E2AAE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAD17740281ACEE300E2AAE6 /* metadata.cpp in Sources */,
+				EAD17741281ACEE300E2AAE6 /* stream_decoder.cpp in Sources */,
+				EAD17742281ACEE300E2AAE6 /* stream_encoder.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		91342BBE62A14DBCA7E20A02 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C240862B12294F5FB416DDC6 /* FLAC-macOS */;
+			targetProxy = FC210BAA77B14967A30CE41E /* PBXContainerItemProxy */;
+		};
+		EAD1773D281ACEE300E2AAE6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C240862B12294F5FB416DDC6 /* FLAC-macOS */;
+			targetProxy = EAD1773E281ACEE300E2AAE6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		166DC15C43D445E69FF84BB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				MACOSX_DEPLOYMENT_TARGET = 12.2;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk;
+				SYMROOT = /Users/marek/koala/lib/opt/libflac/build/build;
+			};
+			name = Debug;
+		};
+		3B0406BED34940819E1687AD /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					FLAC__NO_DLL,
+					_DARWIN_C_SOURCE,
+					_POSIX_PTHREAD_SEMANTICS,
+					__STDC_WANT_IEC_60559_BFP_EXT__,
+					__STDC_WANT_IEC_60559_DFP_EXT__,
+					__STDC_WANT_IEC_60559_FUNCS_EXT__,
+					__STDC_WANT_IEC_60559_TYPES_EXT__,
+					__STDC_WANT_LIB_EXT2__,
+					__STDC_WANT_MATH_SPEC_FUNCS__,
+					_TANDEM_SOURCE,
+					HAVE_CONFIG_H,
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/Users/marek/koala/lib/opt/libflac/include,
+					/Users/marek/koala/lib/opt/libflac/build,
+					"$(inherited)",
+				);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-Wall",
+					"-Wextra",
+					"-Wcast-align",
+					"-Wshadow",
+					"-Wwrite-strings",
+					"-Wctor-dtor-privacy",
+					"-Wnon-virtual-dtor",
+					"-Wreorder",
+					"-Wsign-promo",
+					"-Wundef",
+					"-DNDEBUG",
+					"'-Weffc++'",
+					"-fstack-protector-strong",
+				);
+				OTHER_LIBTOOLFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "FLAC++";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/marek/koala/lib/opt/libflac/build/src/libFLAC++";
+				SYSTEM_HEADER_SEARCH_PATHS = "/opt/homebrew/include $(inherited)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = MinSizeRel;
+		};
+		4C8F26081E4F48E881000984 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				MACOSX_DEPLOYMENT_TARGET = 12.2;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk;
+				SYMROOT = /Users/marek/koala/lib/opt/libflac/build/build;
+			};
+			name = RelWithDebInfo;
+		};
+		5D31E2B563754B76BD24E420 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				MACOSX_DEPLOYMENT_TARGET = 12.2;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk;
+				SYMROOT = /Users/marek/koala/lib/opt/libflac/build/build;
+			};
+			name = Release;
+		};
+		60EBBCC9BED54A3FB4E42F64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					FLAC__NO_DLL,
+					_DARWIN_C_SOURCE,
+					_POSIX_PTHREAD_SEMANTICS,
+					__STDC_WANT_IEC_60559_BFP_EXT__,
+					__STDC_WANT_IEC_60559_DFP_EXT__,
+					__STDC_WANT_IEC_60559_FUNCS_EXT__,
+					__STDC_WANT_IEC_60559_TYPES_EXT__,
+					__STDC_WANT_LIB_EXT2__,
+					__STDC_WANT_MATH_SPEC_FUNCS__,
+					_TANDEM_SOURCE,
+					HAVE_CONFIG_H,
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/Users/marek/koala/lib/opt/libflac/include,
+					/Users/marek/koala/lib/opt/libflac/build,
+					"$(inherited)",
+				);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-Wall",
+					"-Wextra",
+					"-Wcast-align",
+					"-Wshadow",
+					"-Wwrite-strings",
+					"-Wctor-dtor-privacy",
+					"-Wnon-virtual-dtor",
+					"-Wreorder",
+					"-Wsign-promo",
+					"-Wundef",
+					"'-Weffc++'",
+					"-fstack-protector-strong",
+				);
+				OTHER_LIBTOOLFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "FLAC++";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/marek/koala/lib/opt/libflac/build/src/libFLAC++";
+				SYSTEM_HEADER_SEARCH_PATHS = "/opt/homebrew/include $(inherited)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Debug;
+		};
+		72C4AC4DB7F345C3BEB844A9 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					FLAC__NO_DLL,
+					_DARWIN_C_SOURCE,
+					_POSIX_PTHREAD_SEMANTICS,
+					__STDC_WANT_IEC_60559_BFP_EXT__,
+					__STDC_WANT_IEC_60559_DFP_EXT__,
+					__STDC_WANT_IEC_60559_FUNCS_EXT__,
+					__STDC_WANT_IEC_60559_TYPES_EXT__,
+					__STDC_WANT_LIB_EXT2__,
+					__STDC_WANT_MATH_SPEC_FUNCS__,
+					_TANDEM_SOURCE,
+					HAVE_CONFIG_H,
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/Users/marek/koala/lib/opt/libflac/include,
+					/Users/marek/koala/lib/opt/libflac/build,
+					/Users/marek/koala/lib/opt/libflac/src/libFLAC/include,
+					"$(inherited)",
+				);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = (
+					"-Wall",
+					"-Wextra",
+					"-Wstrict-prototypes",
+					"-Wmissing-prototypes",
+					"-Waggregate-return",
+					"-Wcast-align",
+					"-Wnested-externs",
+					"-Wshadow",
+					"-Wundef",
+					"-Wmissing-declarations",
+					"-Winline",
+					"-DNDEBUG",
+					"-Wdeclaration-after-statement",
+					"-fstack-protector-strong",
+					"$(inherited)",
+				);
+				OTHER_LIBTOOLFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = FLAC;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/marek/koala/lib/opt/libflac/build/src/libFLAC;
+				SYSTEM_HEADER_SEARCH_PATHS = "/opt/homebrew/include $(inherited)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = RelWithDebInfo;
+		};
+		75E0C36AE4904B158E595077 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					FLAC__NO_DLL,
+					_DARWIN_C_SOURCE,
+					_POSIX_PTHREAD_SEMANTICS,
+					__STDC_WANT_IEC_60559_BFP_EXT__,
+					__STDC_WANT_IEC_60559_DFP_EXT__,
+					__STDC_WANT_IEC_60559_FUNCS_EXT__,
+					__STDC_WANT_IEC_60559_TYPES_EXT__,
+					__STDC_WANT_LIB_EXT2__,
+					__STDC_WANT_MATH_SPEC_FUNCS__,
+					_TANDEM_SOURCE,
+					HAVE_CONFIG_H,
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/Users/marek/koala/lib/opt/libflac/include,
+					/Users/marek/koala/lib/opt/libflac/build,
+					"$(inherited)",
+				);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-Wall",
+					"-Wextra",
+					"-Wcast-align",
+					"-Wshadow",
+					"-Wwrite-strings",
+					"-Wctor-dtor-privacy",
+					"-Wnon-virtual-dtor",
+					"-Wreorder",
+					"-Wsign-promo",
+					"-Wundef",
+					"-DNDEBUG",
+					"'-Weffc++'",
+					"-fstack-protector-strong",
+				);
+				OTHER_LIBTOOLFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "FLAC++";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/marek/koala/lib/opt/libflac/build/src/libFLAC++";
+				SYSTEM_HEADER_SEARCH_PATHS = "/opt/homebrew/include $(inherited)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Release;
+		};
+		82511BD709CD4DF9A9C8A49D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					FLAC__NO_DLL,
+					_DARWIN_C_SOURCE,
+					_POSIX_PTHREAD_SEMANTICS,
+					__STDC_WANT_IEC_60559_BFP_EXT__,
+					__STDC_WANT_IEC_60559_DFP_EXT__,
+					__STDC_WANT_IEC_60559_FUNCS_EXT__,
+					__STDC_WANT_IEC_60559_TYPES_EXT__,
+					__STDC_WANT_LIB_EXT2__,
+					__STDC_WANT_MATH_SPEC_FUNCS__,
+					_TANDEM_SOURCE,
+					HAVE_CONFIG_H,
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/Users/marek/koala/lib/opt/libflac/include,
+					/Users/marek/koala/lib/opt/libflac/build,
+					/Users/marek/koala/lib/opt/libflac/src/libFLAC/include,
+					"$(inherited)",
+				);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = (
+					"-Wall",
+					"-Wextra",
+					"-Wstrict-prototypes",
+					"-Wmissing-prototypes",
+					"-Waggregate-return",
+					"-Wcast-align",
+					"-Wnested-externs",
+					"-Wshadow",
+					"-Wundef",
+					"-Wmissing-declarations",
+					"-Winline",
+					"-Wdeclaration-after-statement",
+					"-fstack-protector-strong",
+					"$(inherited)",
+				);
+				OTHER_LIBTOOLFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = FLAC;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/marek/koala/lib/opt/libflac/build/src/libFLAC;
+				SYSTEM_HEADER_SEARCH_PATHS = "/opt/homebrew/include $(inherited)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Debug;
+		};
+		862752B2B6714F9287A64CF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					FLAC__NO_DLL,
+					_DARWIN_C_SOURCE,
+					_POSIX_PTHREAD_SEMANTICS,
+					__STDC_WANT_IEC_60559_BFP_EXT__,
+					__STDC_WANT_IEC_60559_DFP_EXT__,
+					__STDC_WANT_IEC_60559_FUNCS_EXT__,
+					__STDC_WANT_IEC_60559_TYPES_EXT__,
+					__STDC_WANT_LIB_EXT2__,
+					__STDC_WANT_MATH_SPEC_FUNCS__,
+					_TANDEM_SOURCE,
+					HAVE_CONFIG_H,
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/Users/marek/koala/lib/opt/libflac/include,
+					/Users/marek/koala/lib/opt/libflac/build,
+					/Users/marek/koala/lib/opt/libflac/src/libFLAC/include,
+					"$(inherited)",
+				);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = (
+					"-Wall",
+					"-Wextra",
+					"-Wstrict-prototypes",
+					"-Wmissing-prototypes",
+					"-Waggregate-return",
+					"-Wcast-align",
+					"-Wnested-externs",
+					"-Wshadow",
+					"-Wundef",
+					"-Wmissing-declarations",
+					"-Winline",
+					"-DNDEBUG",
+					"-funroll-loops",
+					"-Wdeclaration-after-statement",
+					"-fstack-protector-strong",
+					"$(inherited)",
+				);
+				OTHER_LIBTOOLFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = FLAC;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/marek/koala/lib/opt/libflac/build/src/libFLAC;
+				SYSTEM_HEADER_SEARCH_PATHS = "/opt/homebrew/include $(inherited)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Release;
+		};
+		B4BC89E3ED484435866A7EB5 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				MACOSX_DEPLOYMENT_TARGET = 12.2;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk;
+				SYMROOT = /Users/marek/koala/lib/opt/libflac/build/build;
+			};
+			name = MinSizeRel;
+		};
+		CAEC962A943D449B86796322 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					FLAC__NO_DLL,
+					_DARWIN_C_SOURCE,
+					_POSIX_PTHREAD_SEMANTICS,
+					__STDC_WANT_IEC_60559_BFP_EXT__,
+					__STDC_WANT_IEC_60559_DFP_EXT__,
+					__STDC_WANT_IEC_60559_FUNCS_EXT__,
+					__STDC_WANT_IEC_60559_TYPES_EXT__,
+					__STDC_WANT_LIB_EXT2__,
+					__STDC_WANT_MATH_SPEC_FUNCS__,
+					_TANDEM_SOURCE,
+					HAVE_CONFIG_H,
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/Users/marek/koala/lib/opt/libflac/include,
+					/Users/marek/koala/lib/opt/libflac/build,
+					"$(inherited)",
+				);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-Wall",
+					"-Wextra",
+					"-Wcast-align",
+					"-Wshadow",
+					"-Wwrite-strings",
+					"-Wctor-dtor-privacy",
+					"-Wnon-virtual-dtor",
+					"-Wreorder",
+					"-Wsign-promo",
+					"-Wundef",
+					"-DNDEBUG",
+					"'-Weffc++'",
+					"-fstack-protector-strong",
+				);
+				OTHER_LIBTOOLFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "FLAC++";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/marek/koala/lib/opt/libflac/build/src/libFLAC++";
+				SYSTEM_HEADER_SEARCH_PATHS = "/opt/homebrew/include $(inherited)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = RelWithDebInfo;
+		};
+		CB94EFFEEB6247F19B1477A8 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					FLAC__NO_DLL,
+					_DARWIN_C_SOURCE,
+					_POSIX_PTHREAD_SEMANTICS,
+					__STDC_WANT_IEC_60559_BFP_EXT__,
+					__STDC_WANT_IEC_60559_DFP_EXT__,
+					__STDC_WANT_IEC_60559_FUNCS_EXT__,
+					__STDC_WANT_IEC_60559_TYPES_EXT__,
+					__STDC_WANT_LIB_EXT2__,
+					__STDC_WANT_MATH_SPEC_FUNCS__,
+					_TANDEM_SOURCE,
+					HAVE_CONFIG_H,
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/Users/marek/koala/lib/opt/libflac/include,
+					/Users/marek/koala/lib/opt/libflac/build,
+					/Users/marek/koala/lib/opt/libflac/src/libFLAC/include,
+					"$(inherited)",
+				);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = (
+					"-Wall",
+					"-Wextra",
+					"-Wstrict-prototypes",
+					"-Wmissing-prototypes",
+					"-Waggregate-return",
+					"-Wcast-align",
+					"-Wnested-externs",
+					"-Wshadow",
+					"-Wundef",
+					"-Wmissing-declarations",
+					"-Winline",
+					"-DNDEBUG",
+					"-Wdeclaration-after-statement",
+					"-fstack-protector-strong",
+					"$(inherited)",
+				);
+				OTHER_LIBTOOLFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = FLAC;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/marek/koala/lib/opt/libflac/build/src/libFLAC;
+				SYSTEM_HEADER_SEARCH_PATHS = "/opt/homebrew/include $(inherited)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = MinSizeRel;
+		};
+		EAD17737281ACECF00E2AAE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					FLAC__NO_DLL,
+					_DARWIN_C_SOURCE,
+					_POSIX_PTHREAD_SEMANTICS,
+					__STDC_WANT_IEC_60559_BFP_EXT__,
+					__STDC_WANT_IEC_60559_DFP_EXT__,
+					__STDC_WANT_IEC_60559_FUNCS_EXT__,
+					__STDC_WANT_IEC_60559_TYPES_EXT__,
+					__STDC_WANT_LIB_EXT2__,
+					__STDC_WANT_MATH_SPEC_FUNCS__,
+					_TANDEM_SOURCE,
+					HAVE_CONFIG_H,
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/Users/marek/koala/lib/opt/libflac/include,
+					/Users/marek/koala/lib/opt/libflac/build,
+					/Users/marek/koala/lib/opt/libflac/src/libFLAC/include,
+					"$(inherited)",
+				);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = (
+					"-Wall",
+					"-Wextra",
+					"-Wstrict-prototypes",
+					"-Wmissing-prototypes",
+					"-Waggregate-return",
+					"-Wcast-align",
+					"-Wnested-externs",
+					"-Wshadow",
+					"-Wundef",
+					"-Wmissing-declarations",
+					"-Winline",
+					"-Wdeclaration-after-statement",
+					"-fstack-protector-strong",
+					"$(inherited)",
+				);
+				OTHER_LIBTOOLFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SECTORDER_FLAGS = "";
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				SYMROOT = /Users/marek/koala/lib/opt/libflac/build/src/libFLAC;
+				SYSTEM_HEADER_SEARCH_PATHS = "/opt/homebrew/include $(inherited)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Debug;
+		};
+		EAD17738281ACECF00E2AAE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					FLAC__NO_DLL,
+					_DARWIN_C_SOURCE,
+					_POSIX_PTHREAD_SEMANTICS,
+					__STDC_WANT_IEC_60559_BFP_EXT__,
+					__STDC_WANT_IEC_60559_DFP_EXT__,
+					__STDC_WANT_IEC_60559_FUNCS_EXT__,
+					__STDC_WANT_IEC_60559_TYPES_EXT__,
+					__STDC_WANT_LIB_EXT2__,
+					__STDC_WANT_MATH_SPEC_FUNCS__,
+					_TANDEM_SOURCE,
+					HAVE_CONFIG_H,
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/Users/marek/koala/lib/opt/libflac/include,
+					/Users/marek/koala/lib/opt/libflac/build,
+					/Users/marek/koala/lib/opt/libflac/src/libFLAC/include,
+					"$(inherited)",
+				);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = (
+					"-Wall",
+					"-Wextra",
+					"-Wstrict-prototypes",
+					"-Wmissing-prototypes",
+					"-Waggregate-return",
+					"-Wcast-align",
+					"-Wnested-externs",
+					"-Wshadow",
+					"-Wundef",
+					"-Wmissing-declarations",
+					"-Winline",
+					"-DNDEBUG",
+					"-funroll-loops",
+					"-Wdeclaration-after-statement",
+					"-fstack-protector-strong",
+					"$(inherited)",
+				);
+				OTHER_LIBTOOLFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SECTORDER_FLAGS = "";
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				SYMROOT = /Users/marek/koala/lib/opt/libflac/build/src/libFLAC;
+				SYSTEM_HEADER_SEARCH_PATHS = "/opt/homebrew/include $(inherited)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Release;
+		};
+		EAD17739281ACECF00E2AAE6 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					FLAC__NO_DLL,
+					_DARWIN_C_SOURCE,
+					_POSIX_PTHREAD_SEMANTICS,
+					__STDC_WANT_IEC_60559_BFP_EXT__,
+					__STDC_WANT_IEC_60559_DFP_EXT__,
+					__STDC_WANT_IEC_60559_FUNCS_EXT__,
+					__STDC_WANT_IEC_60559_TYPES_EXT__,
+					__STDC_WANT_LIB_EXT2__,
+					__STDC_WANT_MATH_SPEC_FUNCS__,
+					_TANDEM_SOURCE,
+					HAVE_CONFIG_H,
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/Users/marek/koala/lib/opt/libflac/include,
+					/Users/marek/koala/lib/opt/libflac/build,
+					/Users/marek/koala/lib/opt/libflac/src/libFLAC/include,
+					"$(inherited)",
+				);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = (
+					"-Wall",
+					"-Wextra",
+					"-Wstrict-prototypes",
+					"-Wmissing-prototypes",
+					"-Waggregate-return",
+					"-Wcast-align",
+					"-Wnested-externs",
+					"-Wshadow",
+					"-Wundef",
+					"-Wmissing-declarations",
+					"-Winline",
+					"-DNDEBUG",
+					"-Wdeclaration-after-statement",
+					"-fstack-protector-strong",
+					"$(inherited)",
+				);
+				OTHER_LIBTOOLFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SECTORDER_FLAGS = "";
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				SYMROOT = /Users/marek/koala/lib/opt/libflac/build/src/libFLAC;
+				SYSTEM_HEADER_SEARCH_PATHS = "/opt/homebrew/include $(inherited)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = MinSizeRel;
+		};
+		EAD1773A281ACECF00E2AAE6 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					FLAC__NO_DLL,
+					_DARWIN_C_SOURCE,
+					_POSIX_PTHREAD_SEMANTICS,
+					__STDC_WANT_IEC_60559_BFP_EXT__,
+					__STDC_WANT_IEC_60559_DFP_EXT__,
+					__STDC_WANT_IEC_60559_FUNCS_EXT__,
+					__STDC_WANT_IEC_60559_TYPES_EXT__,
+					__STDC_WANT_LIB_EXT2__,
+					__STDC_WANT_MATH_SPEC_FUNCS__,
+					_TANDEM_SOURCE,
+					HAVE_CONFIG_H,
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/Users/marek/koala/lib/opt/libflac/include,
+					/Users/marek/koala/lib/opt/libflac/build,
+					/Users/marek/koala/lib/opt/libflac/src/libFLAC/include,
+					"$(inherited)",
+				);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = (
+					"-Wall",
+					"-Wextra",
+					"-Wstrict-prototypes",
+					"-Wmissing-prototypes",
+					"-Waggregate-return",
+					"-Wcast-align",
+					"-Wnested-externs",
+					"-Wshadow",
+					"-Wundef",
+					"-Wmissing-declarations",
+					"-Winline",
+					"-DNDEBUG",
+					"-Wdeclaration-after-statement",
+					"-fstack-protector-strong",
+					"$(inherited)",
+				);
+				OTHER_LIBTOOLFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SECTORDER_FLAGS = "";
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				SYMROOT = /Users/marek/koala/lib/opt/libflac/build/src/libFLAC;
+				SYSTEM_HEADER_SEARCH_PATHS = "/opt/homebrew/include $(inherited)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = RelWithDebInfo;
+		};
+		EAD17745281ACEE300E2AAE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					FLAC__NO_DLL,
+					_DARWIN_C_SOURCE,
+					_POSIX_PTHREAD_SEMANTICS,
+					__STDC_WANT_IEC_60559_BFP_EXT__,
+					__STDC_WANT_IEC_60559_DFP_EXT__,
+					__STDC_WANT_IEC_60559_FUNCS_EXT__,
+					__STDC_WANT_IEC_60559_TYPES_EXT__,
+					__STDC_WANT_LIB_EXT2__,
+					__STDC_WANT_MATH_SPEC_FUNCS__,
+					_TANDEM_SOURCE,
+					HAVE_CONFIG_H,
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/Users/marek/koala/lib/opt/libflac/include,
+					/Users/marek/koala/lib/opt/libflac/build,
+					"$(inherited)",
+				);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-Wall",
+					"-Wextra",
+					"-Wcast-align",
+					"-Wshadow",
+					"-Wwrite-strings",
+					"-Wctor-dtor-privacy",
+					"-Wnon-virtual-dtor",
+					"-Wreorder",
+					"-Wsign-promo",
+					"-Wundef",
+					"'-Weffc++'",
+					"-fstack-protector-strong",
+				);
+				OTHER_LIBTOOLFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/marek/koala/lib/opt/libflac/build/src/libFLAC++";
+				SYSTEM_HEADER_SEARCH_PATHS = "/opt/homebrew/include $(inherited)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Debug;
+		};
+		EAD17746281ACEE300E2AAE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					FLAC__NO_DLL,
+					_DARWIN_C_SOURCE,
+					_POSIX_PTHREAD_SEMANTICS,
+					__STDC_WANT_IEC_60559_BFP_EXT__,
+					__STDC_WANT_IEC_60559_DFP_EXT__,
+					__STDC_WANT_IEC_60559_FUNCS_EXT__,
+					__STDC_WANT_IEC_60559_TYPES_EXT__,
+					__STDC_WANT_LIB_EXT2__,
+					__STDC_WANT_MATH_SPEC_FUNCS__,
+					_TANDEM_SOURCE,
+					HAVE_CONFIG_H,
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/Users/marek/koala/lib/opt/libflac/include,
+					/Users/marek/koala/lib/opt/libflac/build,
+					"$(inherited)",
+				);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-Wall",
+					"-Wextra",
+					"-Wcast-align",
+					"-Wshadow",
+					"-Wwrite-strings",
+					"-Wctor-dtor-privacy",
+					"-Wnon-virtual-dtor",
+					"-Wreorder",
+					"-Wsign-promo",
+					"-Wundef",
+					"-DNDEBUG",
+					"'-Weffc++'",
+					"-fstack-protector-strong",
+				);
+				OTHER_LIBTOOLFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/marek/koala/lib/opt/libflac/build/src/libFLAC++";
+				SYSTEM_HEADER_SEARCH_PATHS = "/opt/homebrew/include $(inherited)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Release;
+		};
+		EAD17747281ACEE300E2AAE6 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					FLAC__NO_DLL,
+					_DARWIN_C_SOURCE,
+					_POSIX_PTHREAD_SEMANTICS,
+					__STDC_WANT_IEC_60559_BFP_EXT__,
+					__STDC_WANT_IEC_60559_DFP_EXT__,
+					__STDC_WANT_IEC_60559_FUNCS_EXT__,
+					__STDC_WANT_IEC_60559_TYPES_EXT__,
+					__STDC_WANT_LIB_EXT2__,
+					__STDC_WANT_MATH_SPEC_FUNCS__,
+					_TANDEM_SOURCE,
+					HAVE_CONFIG_H,
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/Users/marek/koala/lib/opt/libflac/include,
+					/Users/marek/koala/lib/opt/libflac/build,
+					"$(inherited)",
+				);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-Wall",
+					"-Wextra",
+					"-Wcast-align",
+					"-Wshadow",
+					"-Wwrite-strings",
+					"-Wctor-dtor-privacy",
+					"-Wnon-virtual-dtor",
+					"-Wreorder",
+					"-Wsign-promo",
+					"-Wundef",
+					"-DNDEBUG",
+					"'-Weffc++'",
+					"-fstack-protector-strong",
+				);
+				OTHER_LIBTOOLFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/marek/koala/lib/opt/libflac/build/src/libFLAC++";
+				SYSTEM_HEADER_SEARCH_PATHS = "/opt/homebrew/include $(inherited)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = MinSizeRel;
+		};
+		EAD17748281ACEE300E2AAE6 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					FLAC__NO_DLL,
+					_DARWIN_C_SOURCE,
+					_POSIX_PTHREAD_SEMANTICS,
+					__STDC_WANT_IEC_60559_BFP_EXT__,
+					__STDC_WANT_IEC_60559_DFP_EXT__,
+					__STDC_WANT_IEC_60559_FUNCS_EXT__,
+					__STDC_WANT_IEC_60559_TYPES_EXT__,
+					__STDC_WANT_LIB_EXT2__,
+					__STDC_WANT_MATH_SPEC_FUNCS__,
+					_TANDEM_SOURCE,
+					HAVE_CONFIG_H,
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/Users/marek/koala/lib/opt/libflac/include,
+					/Users/marek/koala/lib/opt/libflac/build,
+					"$(inherited)",
+				);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-Wall",
+					"-Wextra",
+					"-Wcast-align",
+					"-Wshadow",
+					"-Wwrite-strings",
+					"-Wctor-dtor-privacy",
+					"-Wnon-virtual-dtor",
+					"-Wreorder",
+					"-Wsign-promo",
+					"-Wundef",
+					"-DNDEBUG",
+					"'-Weffc++'",
+					"-fstack-protector-strong",
+				);
+				OTHER_LIBTOOLFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/marek/koala/lib/opt/libflac/build/src/libFLAC++";
+				SYSTEM_HEADER_SEARCH_PATHS = "/opt/homebrew/include $(inherited)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = RelWithDebInfo;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		757D0B37474B4E21BD304907 /* Build configuration list for PBXNativeTarget "FLAC-macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82511BD709CD4DF9A9C8A49D /* Debug */,
+				862752B2B6714F9287A64CF0 /* Release */,
+				CB94EFFEEB6247F19B1477A8 /* MinSizeRel */,
+				72C4AC4DB7F345C3BEB844A9 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		830E81B096414FB2B416561C /* Build configuration list for PBXProject "FLAC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				166DC15C43D445E69FF84BB2 /* Debug */,
+				5D31E2B563754B76BD24E420 /* Release */,
+				B4BC89E3ED484435866A7EB5 /* MinSizeRel */,
+				4C8F26081E4F48E881000984 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B8F8EF16DDC14E88BEBE119A /* Build configuration list for PBXNativeTarget "FLAC++-macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60EBBCC9BED54A3FB4E42F64 /* Debug */,
+				75E0C36AE4904B158E595077 /* Release */,
+				3B0406BED34940819E1687AD /* MinSizeRel */,
+				CAEC962A943D449B86796322 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		EAD17736281ACECF00E2AAE6 /* Build configuration list for PBXNativeTarget "FLAC-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAD17737281ACECF00E2AAE6 /* Debug */,
+				EAD17738281ACECF00E2AAE6 /* Release */,
+				EAD17739281ACECF00E2AAE6 /* MinSizeRel */,
+				EAD1773A281ACECF00E2AAE6 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		EAD17744281ACEE300E2AAE6 /* Build configuration list for PBXNativeTarget "FLAC++-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAD17745281ACEE300E2AAE6 /* Debug */,
+				EAD17746281ACEE300E2AAE6 /* Release */,
+				EAD17747281ACEE300E2AAE6 /* MinSizeRel */,
+				EAD17748281ACEE300E2AAE6 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5BFF10DEDA20424290FA67F5 /* Project object */;
+}
