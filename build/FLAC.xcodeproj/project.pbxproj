@@ -8,9 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		09596149DB854383BAC110BE /* stream_encoder_framing.c in Sources */ = {isa = PBXBuildFile; fileRef = 35A56262457D4D4AB1D02739 /* stream_encoder_framing.c */; };
-		13601B40AFB84AFF95E60C95 /* ogg_decoder_aspect.c in Sources */ = {isa = PBXBuildFile; fileRef = 29FBDB29C279404E806E5B1C /* ogg_decoder_aspect.c */; };
 		1653166214E14FF48D580C2F /* stream_decoder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 11FBECBE4BA147049EC348D3 /* stream_decoder.cpp */; };
-		17B5F87544654FE9B5E39205 /* ogg_encoder_aspect.c in Sources */ = {isa = PBXBuildFile; fileRef = 66EE464FE20F412EA3A07159 /* ogg_encoder_aspect.c */; };
 		214CD82E8104496BA9A913A2 /* stream_decoder.c in Sources */ = {isa = PBXBuildFile; fileRef = 5A966F193F624F5B918E3562 /* stream_decoder.c */; };
 		30413BADDB4A4C20B58EEC66 /* metadata_object.c in Sources */ = {isa = PBXBuildFile; fileRef = 3430CD87605544A98EC7B04E /* metadata_object.c */; };
 		308835D7401E439992459271 /* format.c in Sources */ = {isa = PBXBuildFile; fileRef = 172F31CED9C0482E80BD6100 /* format.c */; };
@@ -26,7 +24,6 @@
 		7C3F7CF9EA174436A78E52B3 /* float.c in Sources */ = {isa = PBXBuildFile; fileRef = B62A4542781F4B958FAA4BC8 /* float.c */; };
 		9D8F282592FC43098C7DE1E8 /* stream_encoder_intrin_avx2.c in Sources */ = {isa = PBXBuildFile; fileRef = 16DB09375F964BFDBF7BE45E /* stream_encoder_intrin_avx2.c */; };
 		A0B44A65884547CE961A7D00 /* lpc_intrin_sse2.c in Sources */ = {isa = PBXBuildFile; fileRef = D749EB9629E04876B7008AEA /* lpc_intrin_sse2.c */; };
-		A51A14DB7CB340EBBA692822 /* ogg_mapping.c in Sources */ = {isa = PBXBuildFile; fileRef = 1906F22AEAFC48249227866B /* ogg_mapping.c */; };
 		A641D53257974D7AAAE897A7 /* bitreader.c in Sources */ = {isa = PBXBuildFile; fileRef = DE76FB2A062B4B2FAF008A20 /* bitreader.c */; };
 		BD66E8197B4544F1987955DB /* bitmath.c in Sources */ = {isa = PBXBuildFile; fileRef = AA4653DD4537474F8E68E287 /* bitmath.c */; };
 		CEA044815B914D22A5A6F060 /* md5.c in Sources */ = {isa = PBXBuildFile; fileRef = 8F69D48F14DF452DBFC36643 /* md5.c */; };
@@ -54,10 +51,6 @@
 		EAD17727281ACECF00E2AAE6 /* memory.c in Sources */ = {isa = PBXBuildFile; fileRef = 6AA62306A6CB4794834BDD90 /* memory.c */; };
 		EAD17728281ACECF00E2AAE6 /* metadata_iterators.c in Sources */ = {isa = PBXBuildFile; fileRef = 802FB094B1AC4C6BAC50C8F4 /* metadata_iterators.c */; };
 		EAD17729281ACECF00E2AAE6 /* metadata_object.c in Sources */ = {isa = PBXBuildFile; fileRef = 3430CD87605544A98EC7B04E /* metadata_object.c */; };
-		EAD1772A281ACECF00E2AAE6 /* ogg_decoder_aspect.c in Sources */ = {isa = PBXBuildFile; fileRef = 29FBDB29C279404E806E5B1C /* ogg_decoder_aspect.c */; };
-		EAD1772B281ACECF00E2AAE6 /* ogg_encoder_aspect.c in Sources */ = {isa = PBXBuildFile; fileRef = 66EE464FE20F412EA3A07159 /* ogg_encoder_aspect.c */; };
-		EAD1772C281ACECF00E2AAE6 /* ogg_helper.c in Sources */ = {isa = PBXBuildFile; fileRef = 6B164C443AA04A4B92C8BFB7 /* ogg_helper.c */; };
-		EAD1772D281ACECF00E2AAE6 /* ogg_mapping.c in Sources */ = {isa = PBXBuildFile; fileRef = 1906F22AEAFC48249227866B /* ogg_mapping.c */; };
 		EAD1772E281ACECF00E2AAE6 /* stream_decoder.c in Sources */ = {isa = PBXBuildFile; fileRef = 5A966F193F624F5B918E3562 /* stream_decoder.c */; };
 		EAD1772F281ACECF00E2AAE6 /* stream_encoder.c in Sources */ = {isa = PBXBuildFile; fileRef = 67FAE6172BD2440D91E95B48 /* stream_encoder.c */; };
 		EAD17730281ACECF00E2AAE6 /* stream_encoder_framing.c in Sources */ = {isa = PBXBuildFile; fileRef = 35A56262457D4D4AB1D02739 /* stream_encoder_framing.c */; };
@@ -73,7 +66,6 @@
 		F7520615B38641A2AD2EAE9A /* lpc_intrin_avx2.c in Sources */ = {isa = PBXBuildFile; fileRef = 34558721EDB743DB905B9D3B /* lpc_intrin_avx2.c */; };
 		F8AE70B0FAD94A4BBB060ED4 /* lpc.c in Sources */ = {isa = PBXBuildFile; fileRef = 100DEB526A60490199CF8EB5 /* lpc.c */; };
 		F8BB1FBE8DE843158E0E32F1 /* lpc_intrin_sse.c in Sources */ = {isa = PBXBuildFile; fileRef = F02285C8B9594B469A1EFECB /* lpc_intrin_sse.c */; };
-		FA5F3C1D49CD4CC0BEBA7CC8 /* ogg_helper.c in Sources */ = {isa = PBXBuildFile; fileRef = 6B164C443AA04A4B92C8BFB7 /* ogg_helper.c */; };
 		FB7B5FB4D8EB46BEA3129472 /* cpu.c in Sources */ = {isa = PBXBuildFile; fileRef = DC0914D78B804A8DB13A1360 /* cpu.c */; };
 /* End PBXBuildFile section */
 
@@ -385,10 +377,6 @@
 				CF02C568B2C449418ECFF5F3 /* memory.c in Sources */,
 				F5ACEB1CDF4843B9A88982B7 /* metadata_iterators.c in Sources */,
 				30413BADDB4A4C20B58EEC66 /* metadata_object.c in Sources */,
-				13601B40AFB84AFF95E60C95 /* ogg_decoder_aspect.c in Sources */,
-				17B5F87544654FE9B5E39205 /* ogg_encoder_aspect.c in Sources */,
-				FA5F3C1D49CD4CC0BEBA7CC8 /* ogg_helper.c in Sources */,
-				A51A14DB7CB340EBBA692822 /* ogg_mapping.c in Sources */,
 				214CD82E8104496BA9A913A2 /* stream_decoder.c in Sources */,
 				3E717D01FF394FBFAEFE5765 /* stream_encoder.c in Sources */,
 				09596149DB854383BAC110BE /* stream_encoder_framing.c in Sources */,
@@ -433,10 +421,6 @@
 				EAD17727281ACECF00E2AAE6 /* memory.c in Sources */,
 				EAD17728281ACECF00E2AAE6 /* metadata_iterators.c in Sources */,
 				EAD17729281ACECF00E2AAE6 /* metadata_object.c in Sources */,
-				EAD1772A281ACECF00E2AAE6 /* ogg_decoder_aspect.c in Sources */,
-				EAD1772B281ACECF00E2AAE6 /* ogg_encoder_aspect.c in Sources */,
-				EAD1772C281ACECF00E2AAE6 /* ogg_helper.c in Sources */,
-				EAD1772D281ACECF00E2AAE6 /* ogg_mapping.c in Sources */,
 				EAD1772E281ACECF00E2AAE6 /* stream_decoder.c in Sources */,
 				EAD1772F281ACECF00E2AAE6 /* stream_encoder.c in Sources */,
 				EAD17730281ACECF00E2AAE6 /* stream_encoder_framing.c in Sources */,
@@ -1312,6 +1296,7 @@
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SECTORDER_FLAGS = "";
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				SYMROOT = "/Users/marek/koala/lib/opt/libflac/build/src/libFLAC++";
 				SYSTEM_HEADER_SEARCH_PATHS = "/opt/homebrew/include $(inherited)";
 				USE_HEADERMAP = NO;
@@ -1372,6 +1357,7 @@
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SECTORDER_FLAGS = "";
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				SYMROOT = "/Users/marek/koala/lib/opt/libflac/build/src/libFLAC++";
 				SYSTEM_HEADER_SEARCH_PATHS = "/opt/homebrew/include $(inherited)";
 				USE_HEADERMAP = NO;
@@ -1432,6 +1418,7 @@
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SECTORDER_FLAGS = "";
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				SYMROOT = "/Users/marek/koala/lib/opt/libflac/build/src/libFLAC++";
 				SYSTEM_HEADER_SEARCH_PATHS = "/opt/homebrew/include $(inherited)";
 				USE_HEADERMAP = NO;
@@ -1492,6 +1479,7 @@
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SECTORDER_FLAGS = "";
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				SYMROOT = "/Users/marek/koala/lib/opt/libflac/build/src/libFLAC++";
 				SYSTEM_HEADER_SEARCH_PATHS = "/opt/homebrew/include $(inherited)";
 				USE_HEADERMAP = NO;
