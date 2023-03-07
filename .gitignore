@@ -96,4 +96,4 @@ CTestTestfile.cmake
 _deps
 
 /.vs*/
-xcuserdata/*
+xcuserdata
