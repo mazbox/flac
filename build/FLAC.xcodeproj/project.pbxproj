@@ -461,7 +461,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = arm64;
-				MACOSX_DEPLOYMENT_TARGET = 12.2;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				SYMROOT = /Users/marek/koala/lib/opt/libflac/build/build;
 			};
 			name = Debug;
@@ -530,7 +530,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = arm64;
-				MACOSX_DEPLOYMENT_TARGET = 12.2;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				SYMROOT = /Users/marek/koala/lib/opt/libflac/build/build;
 			};
 			name = RelWithDebInfo;
@@ -539,7 +539,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = arm64;
-				MACOSX_DEPLOYMENT_TARGET = 12.2;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				SYMROOT = /Users/marek/koala/lib/opt/libflac/build/build;
 			};
 			name = Release;
@@ -856,7 +856,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = arm64;
-				MACOSX_DEPLOYMENT_TARGET = 12.2;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				SYMROOT = /Users/marek/koala/lib/opt/libflac/build/build;
 			};
 			name = MinSizeRel;
