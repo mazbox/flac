@@ -462,7 +462,7 @@
 			buildSettings = {
 				ARCHS = arm64;
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
-				SYMROOT = /Users/marek/koala/lib/opt/libflac/build/build;
+				SYMROOT = ../../../lib/opt/libflac/build/build;
 			};
 			name = Debug;
 		};
@@ -493,8 +493,8 @@
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = (
-					/Users/marek/koala/lib/opt/libflac/include,
-					/Users/marek/koala/lib/opt/libflac/build,
+					../../../lib/opt/libflac/include,
+					../../../lib/opt/libflac/build,
 					"$(inherited)",
 				);
 				INSTALL_PATH = "";
@@ -519,7 +519,7 @@
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = "FLAC++";
 				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/marek/koala/lib/opt/libflac/build/src/libFLAC++";
+				SYMROOT = "../../../lib/opt/libflac/build/src/libFLAC++";
 				SYSTEM_HEADER_SEARCH_PATHS = "/opt/homebrew/include $(inherited)";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = "$(inherited)";
@@ -531,7 +531,7 @@
 			buildSettings = {
 				ARCHS = arm64;
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
-				SYMROOT = /Users/marek/koala/lib/opt/libflac/build/build;
+				SYMROOT = ../../../lib/opt/libflac/build/build;
 			};
 			name = RelWithDebInfo;
 		};
@@ -540,7 +540,7 @@
 			buildSettings = {
 				ARCHS = arm64;
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
-				SYMROOT = /Users/marek/koala/lib/opt/libflac/build/build;
+				SYMROOT = ../../../lib/opt/libflac/build/build;
 			};
 			name = Release;
 		};
@@ -571,8 +571,8 @@
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = (
-					/Users/marek/koala/lib/opt/libflac/include,
-					/Users/marek/koala/lib/opt/libflac/build,
+					../../../lib/opt/libflac/include,
+					../../../lib/opt/libflac/build,
 					"$(inherited)",
 				);
 				INSTALL_PATH = "";
@@ -596,7 +596,7 @@
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = "FLAC++";
 				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/marek/koala/lib/opt/libflac/build/src/libFLAC++";
+				SYMROOT = "../../../lib/opt/libflac/build/src/libFLAC++";
 				SYSTEM_HEADER_SEARCH_PATHS = "/opt/homebrew/include $(inherited)";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = "$(inherited)";
@@ -630,9 +630,9 @@
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = (
-					/Users/marek/koala/lib/opt/libflac/include,
-					/Users/marek/koala/lib/opt/libflac/build,
-					/Users/marek/koala/lib/opt/libflac/src/libFLAC/include,
+					../../../lib/opt/libflac/include,
+					../../../lib/opt/libflac/build,
+					../../../lib/opt/libflac/src/libFLAC/include,
 					"$(inherited)",
 				);
 				INSTALL_PATH = "";
@@ -659,7 +659,7 @@
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = FLAC;
 				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/marek/koala/lib/opt/libflac/build/src/libFLAC;
+				SYMROOT = ../../../lib/opt/libflac/build/src/libFLAC;
 				SYSTEM_HEADER_SEARCH_PATHS = "/opt/homebrew/include $(inherited)";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = "$(inherited)";
@@ -693,8 +693,8 @@
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = (
-					/Users/marek/koala/lib/opt/libflac/include,
-					/Users/marek/koala/lib/opt/libflac/build,
+					../../../lib/opt/libflac/include,
+					../../../lib/opt/libflac/build,
 					"$(inherited)",
 				);
 				INSTALL_PATH = "";
@@ -719,7 +719,7 @@
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = "FLAC++";
 				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/marek/koala/lib/opt/libflac/build/src/libFLAC++";
+				SYMROOT = "../../../lib/opt/libflac/build/src/libFLAC++";
 				SYSTEM_HEADER_SEARCH_PATHS = "/opt/homebrew/include $(inherited)";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = "$(inherited)";
@@ -753,9 +753,9 @@
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = (
-					/Users/marek/koala/lib/opt/libflac/include,
-					/Users/marek/koala/lib/opt/libflac/build,
-					/Users/marek/koala/lib/opt/libflac/src/libFLAC/include,
+					../../../lib/opt/libflac/include,
+					../../../lib/opt/libflac/build,
+					../../../lib/opt/libflac/src/libFLAC/include,
 					"$(inherited)",
 				);
 				INSTALL_PATH = "";
@@ -781,7 +781,7 @@
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = FLAC;
 				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/marek/koala/lib/opt/libflac/build/src/libFLAC;
+				SYMROOT = ../../../lib/opt/libflac/build/src/libFLAC;
 				SYSTEM_HEADER_SEARCH_PATHS = "/opt/homebrew/include $(inherited)";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = "$(inherited)";
@@ -815,9 +815,9 @@
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = (
-					/Users/marek/koala/lib/opt/libflac/include,
-					/Users/marek/koala/lib/opt/libflac/build,
-					/Users/marek/koala/lib/opt/libflac/src/libFLAC/include,
+					../../../lib/opt/libflac/include,
+					../../../lib/opt/libflac/build,
+					../../../lib/opt/libflac/src/libFLAC/include,
 					"$(inherited)",
 				);
 				INSTALL_PATH = "";
@@ -845,7 +845,7 @@
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = FLAC;
 				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/marek/koala/lib/opt/libflac/build/src/libFLAC;
+				SYMROOT = ../../../lib/opt/libflac/build/src/libFLAC;
 				SYSTEM_HEADER_SEARCH_PATHS = "/opt/homebrew/include $(inherited)";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = "$(inherited)";
@@ -857,7 +857,7 @@
 			buildSettings = {
 				ARCHS = arm64;
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
-				SYMROOT = /Users/marek/koala/lib/opt/libflac/build/build;
+				SYMROOT = ../../../lib/opt/libflac/build/build;
 			};
 			name = MinSizeRel;
 		};
@@ -888,8 +888,8 @@
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = (
-					/Users/marek/koala/lib/opt/libflac/include,
-					/Users/marek/koala/lib/opt/libflac/build,
+					../../../lib/opt/libflac/include,
+					../../../lib/opt/libflac/build,
 					"$(inherited)",
 				);
 				INSTALL_PATH = "";
@@ -914,7 +914,7 @@
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = "FLAC++";
 				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/marek/koala/lib/opt/libflac/build/src/libFLAC++";
+				SYMROOT = "../../../lib/opt/libflac/build/src/libFLAC++";
 				SYSTEM_HEADER_SEARCH_PATHS = "/opt/homebrew/include $(inherited)";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = "$(inherited)";
@@ -948,9 +948,9 @@
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = (
-					/Users/marek/koala/lib/opt/libflac/include,
-					/Users/marek/koala/lib/opt/libflac/build,
-					/Users/marek/koala/lib/opt/libflac/src/libFLAC/include,
+					../../../lib/opt/libflac/include,
+					../../../lib/opt/libflac/build,
+					../../../lib/opt/libflac/src/libFLAC/include,
 					"$(inherited)",
 				);
 				INSTALL_PATH = "";
@@ -977,7 +977,7 @@
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = FLAC;
 				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/marek/koala/lib/opt/libflac/build/src/libFLAC;
+				SYMROOT = ../../../lib/opt/libflac/build/src/libFLAC;
 				SYSTEM_HEADER_SEARCH_PATHS = "/opt/homebrew/include $(inherited)";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = "$(inherited)";
@@ -1011,9 +1011,9 @@
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = (
-					/Users/marek/koala/lib/opt/libflac/include,
-					/Users/marek/koala/lib/opt/libflac/build,
-					/Users/marek/koala/lib/opt/libflac/src/libFLAC/include,
+					../../../lib/opt/libflac/include,
+					../../../lib/opt/libflac/build,
+					../../../lib/opt/libflac/src/libFLAC/include,
 					"$(inherited)",
 				);
 				INSTALL_PATH = "";
@@ -1040,7 +1040,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SECTORDER_FLAGS = "";
 				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
-				SYMROOT = /Users/marek/koala/lib/opt/libflac/build/src/libFLAC;
+				SYMROOT = ../../../lib/opt/libflac/build/src/libFLAC;
 				SYSTEM_HEADER_SEARCH_PATHS = "/opt/homebrew/include $(inherited)";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = "$(inherited)";
@@ -1074,9 +1074,9 @@
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = (
-					/Users/marek/koala/lib/opt/libflac/include,
-					/Users/marek/koala/lib/opt/libflac/build,
-					/Users/marek/koala/lib/opt/libflac/src/libFLAC/include,
+					../../../lib/opt/libflac/include,
+					../../../lib/opt/libflac/build,
+					../../../lib/opt/libflac/src/libFLAC/include,
 					"$(inherited)",
 				);
 				INSTALL_PATH = "";
@@ -1105,7 +1105,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SECTORDER_FLAGS = "";
 				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
-				SYMROOT = /Users/marek/koala/lib/opt/libflac/build/src/libFLAC;
+				SYMROOT = ../../../lib/opt/libflac/build/src/libFLAC;
 				SYSTEM_HEADER_SEARCH_PATHS = "/opt/homebrew/include $(inherited)";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = "$(inherited)";
@@ -1139,9 +1139,9 @@
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = (
-					/Users/marek/koala/lib/opt/libflac/include,
-					/Users/marek/koala/lib/opt/libflac/build,
-					/Users/marek/koala/lib/opt/libflac/src/libFLAC/include,
+					../../../lib/opt/libflac/include,
+					../../../lib/opt/libflac/build,
+					../../../lib/opt/libflac/src/libFLAC/include,
 					"$(inherited)",
 				);
 				INSTALL_PATH = "";
@@ -1169,7 +1169,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SECTORDER_FLAGS = "";
 				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
-				SYMROOT = /Users/marek/koala/lib/opt/libflac/build/src/libFLAC;
+				SYMROOT = ../../../lib/opt/libflac/build/src/libFLAC;
 				SYSTEM_HEADER_SEARCH_PATHS = "/opt/homebrew/include $(inherited)";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = "$(inherited)";
@@ -1203,9 +1203,9 @@
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = (
-					/Users/marek/koala/lib/opt/libflac/include,
-					/Users/marek/koala/lib/opt/libflac/build,
-					/Users/marek/koala/lib/opt/libflac/src/libFLAC/include,
+					../../../lib/opt/libflac/include,
+					../../../lib/opt/libflac/build,
+					../../../lib/opt/libflac/src/libFLAC/include,
 					"$(inherited)",
 				);
 				INSTALL_PATH = "";
@@ -1233,7 +1233,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SECTORDER_FLAGS = "";
 				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
-				SYMROOT = /Users/marek/koala/lib/opt/libflac/build/src/libFLAC;
+				SYMROOT = ../../../lib/opt/libflac/build/src/libFLAC;
 				SYSTEM_HEADER_SEARCH_PATHS = "/opt/homebrew/include $(inherited)";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = "$(inherited)";
@@ -1267,8 +1267,8 @@
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = (
-					/Users/marek/koala/lib/opt/libflac/include,
-					/Users/marek/koala/lib/opt/libflac/build,
+					../../../lib/opt/libflac/include,
+					../../../lib/opt/libflac/build,
 					"$(inherited)",
 				);
 				INSTALL_PATH = "";
@@ -1293,7 +1293,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SECTORDER_FLAGS = "";
 				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
-				SYMROOT = "/Users/marek/koala/lib/opt/libflac/build/src/libFLAC++";
+				SYMROOT = "../../../lib/opt/libflac/build/src/libFLAC++";
 				SYSTEM_HEADER_SEARCH_PATHS = "/opt/homebrew/include $(inherited)";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = "$(inherited)";
@@ -1327,8 +1327,8 @@
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = (
-					/Users/marek/koala/lib/opt/libflac/include,
-					/Users/marek/koala/lib/opt/libflac/build,
+					../../../lib/opt/libflac/include,
+					../../../lib/opt/libflac/build,
 					"$(inherited)",
 				);
 				INSTALL_PATH = "";
@@ -1354,7 +1354,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SECTORDER_FLAGS = "";
 				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
-				SYMROOT = "/Users/marek/koala/lib/opt/libflac/build/src/libFLAC++";
+				SYMROOT = "../../../lib/opt/libflac/build/src/libFLAC++";
 				SYSTEM_HEADER_SEARCH_PATHS = "/opt/homebrew/include $(inherited)";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = "$(inherited)";
@@ -1388,8 +1388,8 @@
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = (
-					/Users/marek/koala/lib/opt/libflac/include,
-					/Users/marek/koala/lib/opt/libflac/build,
+					../../../lib/opt/libflac/include,
+					../../../lib/opt/libflac/build,
 					"$(inherited)",
 				);
 				INSTALL_PATH = "";
@@ -1415,7 +1415,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SECTORDER_FLAGS = "";
 				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
-				SYMROOT = "/Users/marek/koala/lib/opt/libflac/build/src/libFLAC++";
+				SYMROOT = "../../../lib/opt/libflac/build/src/libFLAC++";
 				SYSTEM_HEADER_SEARCH_PATHS = "/opt/homebrew/include $(inherited)";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = "$(inherited)";
@@ -1449,8 +1449,8 @@
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = (
-					/Users/marek/koala/lib/opt/libflac/include,
-					/Users/marek/koala/lib/opt/libflac/build,
+					../../../lib/opt/libflac/include,
+					../../../lib/opt/libflac/build,
 					"$(inherited)",
 				);
 				INSTALL_PATH = "";
@@ -1476,7 +1476,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SECTORDER_FLAGS = "";
 				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
-				SYMROOT = "/Users/marek/koala/lib/opt/libflac/build/src/libFLAC++";
+				SYMROOT = "../../../lib/opt/libflac/build/src/libFLAC++";
 				SYSTEM_HEADER_SEARCH_PATHS = "/opt/homebrew/include $(inherited)";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = "$(inherited)";
